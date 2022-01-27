@@ -44,5 +44,6 @@ function login(){
   body:JSON.stringify({"username":uname,"password":passw}),
   }).then((response)=>{
     console.log("Don'tKnow")
+    console.log("Added Git")
 })
 }
